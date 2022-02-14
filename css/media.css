@@ -1,0 +1,150 @@
+@media(max-width:1824px){
+    .container{
+        max-width : 1224px;
+    }
+    .header_content{
+        padding-top: 100px;
+    }
+    .header_price{
+        padding: 25px;
+        text-align: center;
+    }
+    .buy_title{
+        font-size: 40px;
+    }
+    .AllPrice{
+        font-size: 30px; 
+    }
+    .Global_buy_bottom{
+        padding: 25px 80px;
+    }
+    .orders_cards{
+        max-height: 600px;
+    }
+    .Orders_Card_content{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+}
+@media(max-width:1224px){
+    .container{
+        max-width : 1080px;
+    }
+    .header{
+        min-width: 100vh;
+    } 
+    .header_title{
+        font-size: 60px;
+    }
+    .header_underTitle{
+        font-size: 35px;
+    }
+    .header_discription{
+        font-size: 16px;
+    }
+    .header_price {
+        font-size: 45px;
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main_restauranst_menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_cards {
+        min-width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        max-width: 360px;
+    }
+    .main_menu{
+        min-height: 1900px;
+    }
+    .footer_main{
+        /* max-width: 1180px; */
+        max-width: 1440px;
+        max-height: 560px;
+        min-width: 1080px;
+        min-height: 650px;
+    }
+    .footer_main_title{
+        font-size: 35px;
+    }
+    .footer_main_text{
+        font-size: 14px;
+    }
+    .main_map_title{
+        font-size: 32px;
+    }
+    .Orders_Card_content{
+        max-height: 330px;
+    }
+    .Orders_Card{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .Orders_Card_title{
+        font-size: 30px;
+        margin-bottom: 0;
+        min-width: 0;
+        min-height: 0;
+        max-height: 45px;
+    }
+    .Orders_Card_description{
+        font-size: 18px;
+        max-height: 420px;
+    }
+    .Orders_Card_Button{
+        padding: 20px 40px;
+    }
+    .FinishPrice{
+        margin-top: 35px;
+    }
+    .ThisPrice{
+        font-size: 30px;
+    }
+    .Global_buy_bottom{
+        font-size: 28px;
+        padding: 20px 60px;
+    }
+    .bascket{
+        min-height: 500px;
+        padding-bottom: 0px;
+    }
+}
+@media(max-width:1080px){
+    .container{
+        max-width : 991px;
+    }
+    .main_map{
+        min-width: 1080px;
+    }
+    .footer_nav{
+        /* max-width: 1080px; */
+        min-width: 100%;
+        overflow: hidden;
+    }
+    .bascket{
+        min-width: 991px;
+    }
+    .Orders_Card_content{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 500;
+    }
+    .Orders_Card_right_content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .Orders_Card_title{
+        margin-top: 35px;
+    }
+}

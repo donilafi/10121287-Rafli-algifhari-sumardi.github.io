@@ -1,0 +1,108 @@
+
+/* ==================== main ==================== */
+.bascket{
+    padding-bottom: 50px;
+    background: var(--dark);
+    min-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buy_title{
+    color: var(--green_75);
+    font-family: var(--f700);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 35px;
+}
+.Orders_Card{
+    margin-top: 25px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.Orders_Card_content{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 500px;
+}
+.Orders_Card_left_content{
+    max-width: 350px;
+    max-height: 350px;
+}
+.Orders_Card_right_content{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+.Orders_Card_bottom_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Orders_Card_title{
+    font-family: var(--f400);
+    font-size: 35px;
+    color: var(--green_75);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    min-width: 220px;
+    max-height: 30px;
+}
+.Orders_Card_description{
+    font-family: var(--f300);
+    font-size: 20px;
+    color: #fff;
+    max-width: 600px;  
+}
+.Orders_Card_Button{
+    padding: 20px 60px 20px 60px;
+    background: rgb(175, 0, 0);
+    color: #fff;
+    border-radius: 15px;
+    transition: 1s;
+    margin-left: 15px;
+}
+.Orders_Card_Button:hover{
+    background: red;
+}
+.Global_buy_bottom{
+    padding: 35px 100px 35px 100px;
+    background: green;
+    font-family: var(--fR700);
+    font-size: 30px;
+    color: #fff;
+    border-radius: 25px;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+.Global_buy_bottom:hover{
+    background: greenyellow;
+    color: green;
+    
+}
+.AllPrice{
+    font-family: var(--fR700);
+    color: var(--green_75);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.FinishPrice{
+    text-align: center;
+    margin-top: 50px;
+}
+.ThisPrice{
+    font-family: var(--fR700);
+    color: var(--green_75);
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+.ThisPrice span{
+    font-size: 50px;
+    color: #fff;
+}
+/* ====================/main==================== */
